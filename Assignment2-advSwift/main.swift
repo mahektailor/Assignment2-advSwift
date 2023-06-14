@@ -6,11 +6,12 @@
 //
 
 import Foundation
-
-// Area of square
-// Asking the user for input and storing in variable squareHeight
+/*
+ Area of square AND  width and height ARE equal
+Asking the user for input and storing in variable squareHeight  */
 print("Enter the height of the square:")
 let squareHeight = Int(readLine() ?? "") ?? 0
-print("Enter the Width of th square")
-let squareWidth = Int(readLine() ?? "") ?? 0
-
+let squareWidth = squareHeight
+let area = calculateArea(height: squareHeight, width: squareWidth)
+//result
+print("The area of the square is: \(area)")
