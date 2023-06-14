@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+// Area of square
+// Asking the user for input and storing in variable squareHeight
+print("Enter the height of the square:")
+let squareHeight = Int(readLine() ?? "") ?? 0
+print("Enter the Width of th square")
+let squareWidth = Int(readLine() ?? "") ?? 0
 
