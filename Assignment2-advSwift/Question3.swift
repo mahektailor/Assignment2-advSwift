@@ -46,4 +46,10 @@ class Computer {
     var state: String = "Off"
     var temp: Double
     
+    init(cpu: String, gpu: String, ram: Int, temp: Double) {
+        self.cpu = cpu
+        self.gpu = gpu
+        self.ram = ram
+        self.temp = temp
+    }
 }
