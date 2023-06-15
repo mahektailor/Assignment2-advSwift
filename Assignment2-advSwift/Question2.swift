@@ -26,3 +26,10 @@ import Foundation
     - 
  
  */
+
+ class Rectangle {
+    let height: Int
+    let width: Int
+    let color: String
+    
+}
