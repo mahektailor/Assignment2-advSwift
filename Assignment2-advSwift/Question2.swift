@@ -37,4 +37,12 @@ import Foundation
         self.width = width
         self.color = color
     }
+    
+    func getPerimeter() -> Int {
+        return 2 * (height + width)
+    }
+    
+    func printColor() {
+        print("The color of the rectangle is \(color).")
+    }
 }
