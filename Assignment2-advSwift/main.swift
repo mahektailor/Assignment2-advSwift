@@ -18,5 +18,5 @@ print("The area of the square is: \(area)")
 
 /* Created instance of rectangle class and printing perimter and color of rectangle */
 let myRectangle = Rectangle(height: 5, width: 10, color: "blue")
-print(myRectangle.getPerimeter())
+print("The perimeter of rectangle is \(myRectangle.getPerimeter())")
 myRectangle.printColor()
