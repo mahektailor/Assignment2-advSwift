@@ -32,4 +32,9 @@ import Foundation
     let width: Int
     let color: String
     
+    init(height: Int, width: Int, color: String) {
+        self.height = height
+        self.width = width
+        self.color = color
+    }
 }
