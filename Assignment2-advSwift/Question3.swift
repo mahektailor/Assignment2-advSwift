@@ -52,4 +52,20 @@ class Computer {
         self.ram = ram
         self.temp = temp
     }
+    
+    func upgradeRam(newAmount: Int) {
+        ram = newAmount
+    }
+    
+    func turnOn() {
+        state = "On"
+    }
+    
+    func turnOff() {
+        state = "Off"
+    }
+    
+    func getTemp() -> Double {
+        return temp
+    }
 }
