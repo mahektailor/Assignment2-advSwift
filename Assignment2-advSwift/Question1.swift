@@ -15,22 +15,13 @@ func calculateArea(height: Int, width: Int) -> Int {
     return area
 }
 
+// Creating New Function to Convert all String to .upercase() where is method
+func allCap(string: String) -> String {
+    return string.uppercased()
+}
 
-/**
- Question 1:
- for this questions you need to create 3 functions
- read the questions carefully - make you the function names parameters and return type are all the same as the question
- 
- FUNCTION 1:
- create a function that will calculate the area of a square
- function name:
-    - calculateArea
- parameters:
-    - height: Int
-    - width: Int
- return type:
-    - Int
- 
+/*
+
  FUNCTION 2:
  create a function that will convert and print a string into all caps
  function name:
