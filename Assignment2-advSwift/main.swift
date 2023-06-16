@@ -27,8 +27,23 @@ if let inputString = (readLine()){
 }else{
     print("invalid input")
 }
+// Answer Q1A3
 
+// Creating an Array to check out function  middle
+let array1 = [1, 2, 3, 4, 5, 6]
+// Putting a loop if else
+if let result1 = middle(array: array1) {
+    print("Middle element: \(result1)")
+} else {
+    print("No middle element")
+}
+
+// Question 2 Answer 1
 /* Created instance of rectangle class and printing perimter and color of rectangle */
 let myRectangle = Rectangle(height: 5, width: 10, color: "blue")
 print("The perimeter of rectangle is \(myRectangle.getPerimeter())")
 myRectangle.printColor()
+
+
+
+// Question 2 Answer 2

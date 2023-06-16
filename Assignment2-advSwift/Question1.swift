@@ -19,27 +19,15 @@ func calculateArea(height: Int, width: Int) -> Int {
 func allCap(string: String) -> String {
     return string.uppercased()
 }
-
-/*
-
- FUNCTION 2:
- create a function that will convert and print a string into all caps
- function name:
-    - allCap
- parameters:
-    - string: String
- return type:
-    - String
- 
- FUNCTION 3:
- create a function that will return the middle element of an array
- function name:
-    - middle
- paramters:
-    - array: [Int]
- return type
-    - Int?
- NOTE, if there is no middle element return nil. there is no middle element if the value is even
- ex: [1,2,3,4,5,6] has no middle because 3,4 are both in the middle
- ex: [1,2,3,4,5] has a middle of 3
- */
+// Creating a Function to find Middle of an array
+// Pre-prerequisite are array must be intergers
+func middle(array: [Int]) -> Int? {
+    // gaurd checks if array is empty or not if it is than it will return nill
+    guard !array.isEmpty else {
+        return nil
+    }
+    // Variable middleIndex where array is counted by count method than divided by 2
+    let middleIndex = array.count / 2
+    // if function is even no middle will be found or if its odd then it will give middleIndex
+    return array.count % 2 == 0 ? nil : array[middleIndex]
+}
