@@ -33,9 +33,19 @@ if let inputString = (readLine()){
 let array1 = [1, 2, 3, 4, 5, 6]
 // Putting a loop if else
 if let result1 = middle(array: array1) {
-    print("Middle element: \(result1)")
+    print("In Array1 [1, 2, 3, 4, 5, 6] : Middle element: \(result1)")
 } else {
-    print("No middle element")
+    print("In Array1 [1, 2, 3, 4, 5, 6] : No middle element")
+}
+// Array2
+print("In Array [1,2,3,4,5]")
+let array2 = [1,2,3,4,5]
+// Calling Function middle to test array 2
+if let result2 = middle(array: array2) {
+
+    print("In Array [1,2,3,4,5] is : Middle element: \(result2)")
+} else {
+    print("In Array [1,2,3,4,5] is : No middle element")
 }
 
 // Question 2 Answer 1

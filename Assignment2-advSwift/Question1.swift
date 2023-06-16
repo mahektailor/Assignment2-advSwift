@@ -15,12 +15,15 @@ func calculateArea(height: Int, width: Int) -> Int {
     return area
 }
 
+//Answer 2
 // Creating New Function to Convert all String to .upercase() where is method
 func allCap(string: String) -> String {
     return string.uppercased()
 }
-// Creating a Function to find Middle of an array
-// Pre-prerequisite are array must be intergers
+
+/* Answer 3
+ Creating a Function to find Middle of an array
+ Pre-prerequisite are array must be intergers */
 func middle(array: [Int]) -> Int? {
     // gaurd checks if array is empty or not if it is than it will return nill
     guard !array.isEmpty else {
