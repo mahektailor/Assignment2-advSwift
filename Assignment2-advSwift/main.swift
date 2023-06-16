@@ -56,4 +56,12 @@ myRectangle.printColor()
 
 
 
-// Question 2 Answer 2
+// Question 3 Answer 1
+// variable laptop having property cpu gpu ram state temp
+// ram upgradable or not , screen size , istouch or not
+let laptop = Laptop(cpu: "Intel i7", gpu: "Nvidia GTX 1660", ram: 16, state: "On", temp: 45.5, isRamUpgradable: true, screenSize: 15.6, isTouchScreen: false)
+print("Device Description ")
+print(laptop.description())
+print("Device State :",laptop.state) // Output: "On"
+laptop.closeScreen()
+print(laptop.state) // Output: "Sleep"

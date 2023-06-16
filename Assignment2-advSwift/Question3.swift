@@ -59,7 +59,18 @@ class Laptop: Computer {
                  super.upgradeRam(newAmount: newAmount)
              }
          }
-         
+    func description() -> String {
+            return """
+            CPU: \(cpu)
+            GPU: \(gpu)
+            RAM: \(ram) GB
+            State: \(state)
+            Temperature: \(temp)°C
+            Ram Upgradable: \(isRamUpgradable)
+            Screen Size: \(screenSize) inches
+            Touch Screen: \(isTouchScreen)
+            """
+        }
          func closeScreen() {
              state = "Sleep"
          }
