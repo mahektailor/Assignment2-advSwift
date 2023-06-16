@@ -45,7 +45,7 @@ class Laptop: Computer {
     var isRamUpgradable: Bool
     var screenSize: Double
     var isTouchScreen: Bool
-    
+    // Cpu,Gpu , State  is string  , Ram is Int and Temp is 
     init(cpu: String, gpu: String, ram: Int, state: String, temp: Double, isRamUpgradable: Bool, screenSize: Double, isTouchScreen: Bool) {
            self.isRamUpgradable = isRamUpgradable
            self.screenSize = screenSize
@@ -59,6 +59,7 @@ class Laptop: Computer {
                  super.upgradeRam(newAmount: newAmount)
              }
          }
+    //to Print description of give device in main
     func description() -> String {
             return """
             CPU: \(cpu)
