@@ -38,7 +38,7 @@ if let result1 = middle(array: array1) {
     print("In Array1 [1, 2, 3, 4, 5, 6] : No middle element")
 }
 // Array2
-print("In Array [1,2,3,4,5]")
+
 let array2 = [1,2,3,4,5]
 // Calling Function middle to test array 2
 if let result2 = middle(array: array2) {
@@ -50,7 +50,9 @@ if let result2 = middle(array: array2) {
 
 // Question 2 Answer 1
 /* Created instance of rectangle class and printing perimter and color of rectangle */
-let myRectangle = Rectangle(height: 5, width: 10, color: "blue")
+let myRectangle = Rectangle(height: 5,
+                            width: 10,
+                            color: "blue")
 print("The perimeter of rectangle is \(myRectangle.getPerimeter())")
 myRectangle.printColor()
 
@@ -59,7 +61,14 @@ myRectangle.printColor()
 // Question 3 Answer 1
 // variable laptop having property cpu gpu ram state temp
 // ram upgradable or not , screen size , istouch or not
-let laptop = Laptop(cpu: "Intel i7", gpu: "Nvidia GTX 1660", ram: 16, state: "On", temp: 45.5, isRamUpgradable: true, screenSize: 15.6, isTouchScreen: false)
+let laptop = Laptop(cpu: "Intel i9 ",
+                    gpu: "Nvidia RTX 4090",
+                    ram: 128,
+                    state: "On",
+                    temp: 59.99,
+                    isRamUpgradable: true,
+                    screenSize: 15.6,
+                    isTouchScreen: true)
 print("Device Description ")
 print(laptop.description())
 print("Device State :",laptop.state) // Output: "On"
